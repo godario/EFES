@@ -1,0 +1,94 @@
+# # File gsaved with Nlview version 6.3.8  2013-12-19 bk=1.2992 VDI=34 GEI=35
+# 
+preplace inst nios_hps_system.hps_0.L2 -pg 1
+preplace inst nios_hps_system.clk_0 -pg 1 -lvl 1 -y 290
+preplace inst nios_hps_system.jtag_uart_0 -pg 1 -lvl 2 -y 110
+preplace inst nios_hps_system.hps_0.fpgamgr -pg 1
+preplace inst nios_hps_system.hps_0.timer -pg 1
+preplace inst nios_hps_system.hps_0.nand0 -pg 1
+preplace inst nios_hps_system.hps_0.hps_io -pg 1
+preplace inst nios_hps_system.nios_7seg_gpio_5 -pg 1 -lvl 3 -y 450
+preplace inst nios_hps_system.nios_switches_gpio_1 -pg 1 -lvl 2 -y 650
+preplace inst nios_hps_system.hps_0.wd_timer0 -pg 1
+preplace inst nios_hps_system.hps_0.wd_timer1 -pg 1
+preplace inst nios_hps_system.nios_i2cdat_gpio_4inout -pg 1 -lvl 3 -y 230
+preplace inst nios_hps_system.hps_0.clkmgr -pg 1
+preplace inst nios_hps_system.sysid_qsys_0 -pg 1 -lvl 2 -y 750
+preplace inst nios_hps_system.nios_leds_gpio_0 -pg 1 -lvl 2 -y 930
+preplace inst nios_hps_system.hps_0.sysmgr -pg 1
+preplace inst nios_hps_system.hps_0.i2c0 -pg 1
+preplace inst nios_hps_system.hps_0.i2c1 -pg 1
+preplace inst nios_hps_system.hps_0.usb0 -pg 1
+preplace inst nios_hps_system.hps_0.uart0 -pg 1
+preplace inst nios_hps_system.hps_0.i2c2 -pg 1
+preplace inst nios_hps_system.hps_0.usb1 -pg 1
+preplace inst nios_hps_system.hps_0.gmac0 -pg 1
+preplace inst nios_hps_system.hps_0.sdrctl -pg 1
+preplace inst nios_hps_system.hps_0.i2c3 -pg 1
+preplace inst nios_hps_system.hps_0.gpio0 -pg 1
+preplace inst nios_hps_system.hps_0.uart1 -pg 1
+preplace inst nios_hps_system.hps_0.gmac1 -pg 1
+preplace inst nios_hps_system.nios2_qsys_0 -pg 1 -lvl 1 -y 120
+preplace inst nios_hps_system.hps_0.gpio1 -pg 1
+preplace inst nios_hps_system.hps_0.gpio2 -pg 1
+preplace inst nios_hps_system.hps_0.fpga_interfaces -pg 1
+preplace inst nios_hps_system.nios_uarttx_gpio3out -pg 1 -lvl 3 -y 650
+preplace inst nios_hps_system.hps_0.arm_gic_0 -pg 1
+preplace inst nios_hps_system.hps_0.qspi -pg 1
+preplace inst nios_hps_system.hps_0.f2s_sdram_ref_clk -pg 1
+preplace inst nios_hps_system.nios_i2crw_gpio_4out -pg 1 -lvl 3 -y 330
+preplace inst nios_hps_system.hps_0.timer0 -pg 1
+preplace inst nios_hps_system.hps_0.timer1 -pg 1
+preplace inst nios_hps_system.hps_0.arm_a9_0 -pg 1
+preplace inst nios_hps_system.hps_0.timer2 -pg 1
+preplace inst nios_hps_system.hps_0.arm_a9_1 -pg 1
+preplace inst nios_hps_system.pll_0 -pg 1 -lvl 2 -y 230
+preplace inst nios_hps_system.hps_0.timer3 -pg 1
+preplace inst nios_hps_system.hps_0.spim0 -pg 1
+preplace inst nios_hps_system.hps_0.sdmmc -pg 1
+preplace inst nios_hps_system.nios_uartrx_gpio_3in -pg 1 -lvl 3 -y 550
+preplace inst nios_hps_system.hps_0.spim1 -pg 1
+preplace inst nios_hps_system.sdram_controller_0 -pg 1 -lvl 2 -y 390
+preplace inst nios_hps_system.hps_0.scu -pg 1
+preplace inst nios_hps_system.hps_0.axi_sdram -pg 1
+preplace inst nios_hps_system.hps_0.axi_ocram -pg 1
+preplace inst nios_hps_system.hps_0.rstmgr -pg 1
+preplace inst nios_hps_system.hps_0 -pg 1 -lvl 1 -y 420
+preplace inst nios_hps_system.nios_i2cclk_gpio_4out -pg 1 -lvl 3 -y 130
+preplace inst nios_hps_system -pg 1 -lvl 1 -y 40 -regy -20
+preplace inst nios_hps_system.hps_0.hps_io.border -pg 1
+preplace inst nios_hps_system.hps_0.bridges -pg 1
+preplace inst nios_hps_system.nios_buttons_gpio_2 -pg 1 -lvl 2 -y 510
+preplace inst nios_hps_system.hps_0.l3regs -pg 1
+preplace inst nios_hps_system.hps_0.eosc1 -pg 1
+preplace inst nios_hps_system.timer_0 -pg 1 -lvl 3 -y 30
+preplace inst nios_hps_system.hps_0.clk_0 -pg 1
+preplace inst nios_hps_system.hps_0.dcan0 -pg 1
+preplace inst nios_hps_system.hps_0.eosc2 -pg 1
+preplace inst nios_hps_system.hps_0.dma -pg 1
+preplace inst nios_hps_system.hps_0.f2s_periph_ref_clk -pg 1
+preplace inst nios_hps_system.hps_0.dcan1 -pg 1
+preplace netloc FAN_OUT<net_container>nios_hps_system</net_container>(MASTER)nios2_qsys_0.d_irq,(SLAVE)jtag_uart_0.irq,(SLAVE)timer_0.irq) 1 1 2 730 100 1010
+preplace netloc EXPORT<net_container>nios_hps_system</net_container>(SLAVE)clk_0.clk_in_reset,(SLAVE)nios_hps_system.reset) 1 0 1 NJ
+preplace netloc POINT_TO_POINT<net_container>nios_hps_system</net_container>(SLAVE)pll_0.refclk,(MASTER)clk_0.clk) 1 1 1 730
+preplace netloc INTERCONNECT<net_container>nios_hps_system</net_container>(SLAVE)nios_i2cdat_gpio_4inout.s1,(SLAVE)nios_i2cclk_gpio_4out.s1,(SLAVE)nios_uarttx_gpio3out.s1,(SLAVE)timer_0.s1,(SLAVE)nios_switches_gpio_1.s1,(SLAVE)nios_leds_gpio_0.s1,(SLAVE)jtag_uart_0.avalon_jtag_slave,(SLAVE)nios2_qsys_0.jtag_debug_module,(MASTER)nios2_qsys_0.data_master,(SLAVE)nios_7seg_gpio_5.s1,(MASTER)nios2_qsys_0.instruction_master,(SLAVE)nios_i2crw_gpio_4out.s1,(SLAVE)sdram_controller_0.s1,(SLAVE)nios_uartrx_gpio_3in.s1,(SLAVE)nios_buttons_gpio_2.s1,(SLAVE)sysid_qsys_0.control_slave) 1 0 3 230 70 690 380 1030
+preplace netloc EXPORT<net_container>nios_hps_system</net_container>(SLAVE)nios_hps_system.nios_uart_gpio_3in_external_connection,(SLAVE)nios_uartrx_gpio_3in.external_connection) 1 0 3 NJ 620 NJ 620 NJ
+preplace netloc EXPORT<net_container>nios_hps_system</net_container>(SLAVE)nios_leds_gpio_0.external_connection,(SLAVE)nios_hps_system.nios_leds_gpio_0_external_connection) 1 0 2 NJ 960 NJ
+preplace netloc EXPORT<net_container>nios_hps_system</net_container>(SLAVE)nios_hps_system.nios_i2cclk_gpio_4out_external_connection,(SLAVE)nios_i2cclk_gpio_4out.external_connection) 1 0 3 NJ 50 NJ 50 NJ
+preplace netloc EXPORT<net_container>nios_hps_system</net_container>(SLAVE)nios_hps_system.hps_0_io,(SLAVE)hps_0.hps_io) 1 0 1 NJ
+preplace netloc INTERCONNECT<net_container>nios_hps_system</net_container>(SLAVE)sysid_qsys_0.reset,(SLAVE)nios_leds_gpio_0.reset,(MASTER)nios2_qsys_0.jtag_debug_module_reset,(SLAVE)nios_uartrx_gpio_3in.reset,(SLAVE)nios_i2cclk_gpio_4out.reset,(SLAVE)nios_switches_gpio_1.reset,(SLAVE)nios_7seg_gpio_5.reset,(SLAVE)nios_i2cdat_gpio_4inout.reset,(SLAVE)nios_uarttx_gpio3out.reset,(SLAVE)jtag_uart_0.reset,(SLAVE)pll_0.reset,(SLAVE)nios2_qsys_0.reset_n,(SLAVE)nios_buttons_gpio_2.reset,(SLAVE)sdram_controller_0.reset,(SLAVE)nios_i2crw_gpio_4out.reset,(MASTER)clk_0.clk_reset,(SLAVE)timer_0.reset) 1 0 3 250 110 670 360 1070
+preplace netloc FAN_OUT<net_container>nios_hps_system</net_container>(SLAVE)hps_0.h2f_lw_axi_clock,(SLAVE)nios_buttons_gpio_2.clk,(SLAVE)nios_7seg_gpio_5.clk,(SLAVE)nios_uartrx_gpio_3in.clk,(SLAVE)sysid_qsys_0.clk,(SLAVE)nios_i2crw_gpio_4out.clk,(SLAVE)nios_switches_gpio_1.clk,(SLAVE)nios_i2cdat_gpio_4inout.clk,(SLAVE)timer_0.clk,(MASTER)pll_0.outclk0,(SLAVE)nios_leds_gpio_0.clk,(SLAVE)jtag_uart_0.clk,(SLAVE)nios_i2cclk_gpio_4out.clk,(SLAVE)nios_uarttx_gpio3out.clk) 1 0 3 270 540 750 340 1110
+preplace netloc EXPORT<net_container>nios_hps_system</net_container>(SLAVE)nios_i2cdat_gpio_4inout.external_connection,(SLAVE)nios_hps_system.nios_i2cdat_gpio_4inout_external_connection) 1 0 3 NJ 90 NJ 80 NJ
+preplace netloc EXPORT<net_container>nios_hps_system</net_container>(SLAVE)nios_hps_system.hps_0_h2f_loan_io,(SLAVE)hps_0.h2f_loan_io) 1 0 1 NJ
+preplace netloc EXPORT<net_container>nios_hps_system</net_container>(SLAVE)nios_hps_system.clk,(SLAVE)clk_0.clk_in) 1 0 1 NJ
+preplace netloc EXPORT<net_container>nios_hps_system</net_container>(SLAVE)nios_hps_system.nios_switches_gpio_1_external_connection,(SLAVE)nios_switches_gpio_1.external_connection) 1 0 2 NJ 680 NJ
+preplace netloc EXPORT<net_container>nios_hps_system</net_container>(SLAVE)nios_hps_system.hps_0_ddr,(SLAVE)hps_0.memory) 1 0 1 NJ
+preplace netloc EXPORT<net_container>nios_hps_system</net_container>(SLAVE)nios_hps_system.nios_uarttx_gpio3out_external_connection,(SLAVE)nios_uarttx_gpio3out.external_connection) 1 0 3 NJ 640 NJ 640 NJ
+preplace netloc EXPORT<net_container>nios_hps_system</net_container>(MASTER)pll_0.outclk2,(MASTER)nios_hps_system.pll_0_sdram) 1 2 2 NJ 440 NJ
+preplace netloc EXPORT<net_container>nios_hps_system</net_container>(SLAVE)nios_buttons_gpio_2.external_connection,(SLAVE)nios_hps_system.nios_buttons_gpio_2_external_connection) 1 0 2 NJ 560 NJ
+preplace netloc EXPORT<net_container>nios_hps_system</net_container>(SLAVE)nios_hps_system.nios_7seg_gpio_5_external_connection,(SLAVE)nios_7seg_gpio_5.external_connection) 1 0 3 NJ 380 NJ 500 NJ
+preplace netloc FAN_OUT<net_container>nios_hps_system</net_container>(SLAVE)nios2_qsys_0.clk,(SLAVE)sdram_controller_0.clk,(MASTER)pll_0.outclk1) 1 0 3 270 250 650 320 1010
+preplace netloc EXPORT<net_container>nios_hps_system</net_container>(SLAVE)sdram_controller_0.wire,(SLAVE)nios_hps_system.sdram_controller_0_wire) 1 0 2 NJ 360 NJ
+preplace netloc EXPORT<net_container>nios_hps_system</net_container>(SLAVE)nios_i2crw_gpio_4out.external_connection,(SLAVE)nios_hps_system.nios_i2crw_gpio_4out_external_connection) 1 0 3 NJ 270 NJ 220 NJ
+levelinfo -pg 1 0 200 1400
+levelinfo -hier nios_hps_system 210 390 830 1140 1300
